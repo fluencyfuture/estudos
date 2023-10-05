@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
-    <meta name="description" content="Página de estudos Fluency Future">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <!--  Meta tags para redes sociais -->
-    <meta property="og:title" content="Fluency Future">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Página de estudos Fluency Future">
-    <meta property="og:image" content="https://fluencyfuture.github.io/estudos/images/fluencyfuture-avatar.png">
-    <meta property="og:image:alt" content="Logo FLuency Future com fundo verde">
-    <meta property="og:site_name" content="Fluency Future">
-    <meta property="og:url" content="https://fluencyfuture.github.io/estudos/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluency Future - Estudos</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="full-center-center">
+        <!-- Caixa Branca -->
+        <div class="box">
 
-        <!--Seção superior-->
-        <div class="profile">
-            <div class="profile__header">
-                <img src="images/fluencyfuture-avatar.png" width="200px" alt="Logo do Fluency Future, texto em preto e fundo verde limão">
+            <!-- Avatar ou Imagem de Perfil-->
+            <div class="box__avatar">
+                <img src="./images/avatar.png" alt="Avatar - Logo da Fluency">
+            </div>
+
+            <!-- Área de Títulos e Descrições -->
+            <div class="box__header">
                 <h1>Fluency Future</h1>
                 <h2>Desbloqueie o seu futuro!</h2>
-            </div>
-            
-            <div class="profile__about">
                 <p>Descrição sobre o meu perfil</p>
             </div>
-        </div>
 
-        <!--Seção de Links-->
-        <div class="links">
-            <ul>
-                <li><a href="https://www.instagram.com/fluencyfuturebr/"><span class="emoji">&#8986;</span> <span class="links__item">Instagram</span></a></li>
-                <li><a href="https://www.fluencytv.com/"><span class="emoji">&#9924;</span> <span class="links__item">LinkedIn</span></a></li>
-                <li><a href="https://www.linkedin.com/in/bisewski/"><span class="emoji">&#9989;</span> <span class="links__item">Matricule-se</span></a></li>
-            </ul>
+            <!-- Área de Conteúdo -->
+            <div class="box__content">
+
+                <!-- Lista de Links -->
+                <ul class="link-list">
+                    <li>
+                        <a href="https://linkedin.com" target="_blank">
+                            <span><img src="./images/icon-linkedin.svg" alt="Logo do LinkedIn"></span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank">
+                            <span><img src="./images/icon-instagram.svg" alt="Logo do Instagram"></span>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
